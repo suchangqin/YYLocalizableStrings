@@ -10,6 +10,16 @@
 		A913053F1DB71A600023D131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913053E1DB71A600023D131 /* AppDelegate.swift */; };
 		A91305411DB71A600023D131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91305401DB71A600023D131 /* Assets.xcassets */; };
 		A91305441DB71A600023D131 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91305421DB71A600023D131 /* MainMenu.xib */; };
+		A91305511DB71D100023D131 /* LSProjectListWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913054F1DB71D100023D131 /* LSProjectListWindowController.swift */; };
+		A91305521DB71D100023D131 /* LSProjectListWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91305501DB71D100023D131 /* LSProjectListWindowController.xib */; };
+		A91305551DB727700023D131 /* LSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91305541DB727700023D131 /* LSAPI.swift */; };
+		A91305571DB8AA5D0023D131 /* LSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91305561DB8AA5D0023D131 /* LSExtension.swift */; };
+		A913056D1DB8BF550023D131 /* YYDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913056C1DB8BF550023D131 /* YYDB.swift */; };
+		A9F6D33C1DB8C3F100BF97C1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F6D33B1DB8C3F100BF97C1 /* libsqlite3.0.tbd */; };
+		A9F6D33E1DB8C5A400BF97C1 /* String+YYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6D33D1DB8C5A400BF97C1 /* String+YYExtension.swift */; };
+		A9F6D3421DB8CF1D00BF97C1 /* YYDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6D3411DB8CF1D00BF97C1 /* YYDefines.swift */; };
+		A9F6D3441DB9B6DF00BF97C1 /* LSTableProjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6D3431DB9B6DF00BF97C1 /* LSTableProjects.swift */; };
+		A9F6D34A1DB9F7EB00BF97C1 /* YYLocalizedStringAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6D3491DB9F7EB00BF97C1 /* YYLocalizedStringAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +28,17 @@
 		A91305401DB71A600023D131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91305431DB71A600023D131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A91305451DB71A600023D131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A913054F1DB71D100023D131 /* LSProjectListWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSProjectListWindowController.swift; sourceTree = "<group>"; };
+		A91305501DB71D100023D131 /* LSProjectListWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSProjectListWindowController.xib; sourceTree = "<group>"; };
+		A91305541DB727700023D131 /* LSAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSAPI.swift; sourceTree = "<group>"; };
+		A91305561DB8AA5D0023D131 /* LSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSExtension.swift; sourceTree = "<group>"; };
+		A913056C1DB8BF550023D131 /* YYDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYDB.swift; sourceTree = "<group>"; };
+		A9F6D33B1DB8C3F100BF97C1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A9F6D33D1DB8C5A400BF97C1 /* String+YYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+YYExtension.swift"; sourceTree = "<group>"; };
+		A9F6D33F1DB8C66F00BF97C1 /* YYLocalizableStrings-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYLocalizableStrings-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9F6D3411DB8CF1D00BF97C1 /* YYDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYDefines.swift; sourceTree = "<group>"; };
+		A9F6D3431DB9B6DF00BF97C1 /* LSTableProjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTableProjects.swift; sourceTree = "<group>"; };
+		A9F6D3491DB9F7EB00BF97C1 /* YYLocalizedStringAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYLocalizedStringAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F6D33C1DB8C3F100BF97C1 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +58,7 @@
 			children = (
 				A913053D1DB71A600023D131 /* YYLocalizableStrings */,
 				A913053C1DB71A600023D131 /* Products */,
+				A9F6D33A1DB8C3F100BF97C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,12 +73,78 @@
 		A913053D1DB71A600023D131 /* YYLocalizableStrings */ = {
 			isa = PBXGroup;
 			children = (
+				A913054C1DB71C810023D131 /* libs */,
+				A913054D1DB71C810023D131 /* src */,
+				A913054B1DB71C670023D131 /* Supporting Files */,
+			);
+			path = YYLocalizableStrings;
+			sourceTree = "<group>";
+		};
+		A913054B1DB71C670023D131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				A913053E1DB71A600023D131 /* AppDelegate.swift */,
 				A91305401DB71A600023D131 /* Assets.xcassets */,
 				A91305421DB71A600023D131 /* MainMenu.xib */,
 				A91305451DB71A600023D131 /* Info.plist */,
+				A9F6D33F1DB8C66F00BF97C1 /* YYLocalizableStrings-Bridging-Header.h */,
 			);
-			path = YYLocalizableStrings;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A913054C1DB71C810023D131 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A913056B1DB8BF3C0023D131 /* YYUtil */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		A913054D1DB71C810023D131 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A91305531DB7274F0023D131 /* common */,
+				A913054E1DB71CBC0023D131 /* windowControllers */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A913054E1DB71CBC0023D131 /* windowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A913054F1DB71D100023D131 /* LSProjectListWindowController.swift */,
+				A91305501DB71D100023D131 /* LSProjectListWindowController.xib */,
+			);
+			path = windowControllers;
+			sourceTree = "<group>";
+		};
+		A91305531DB7274F0023D131 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A91305541DB727700023D131 /* LSAPI.swift */,
+				A91305561DB8AA5D0023D131 /* LSExtension.swift */,
+				A9F6D3431DB9B6DF00BF97C1 /* LSTableProjects.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		A913056B1DB8BF3C0023D131 /* YYUtil */ = {
+			isa = PBXGroup;
+			children = (
+				A913056C1DB8BF550023D131 /* YYDB.swift */,
+				A9F6D33D1DB8C5A400BF97C1 /* String+YYExtension.swift */,
+				A9F6D3411DB8CF1D00BF97C1 /* YYDefines.swift */,
+				A9F6D3491DB9F7EB00BF97C1 /* YYLocalizedStringAPI.swift */,
+			);
+			path = YYUtil;
+			sourceTree = "<group>";
+		};
+		A9F6D33A1DB8C3F100BF97C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9F6D33B1DB8C3F100BF97C1 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91305411DB71A600023D131 /* Assets.xcassets in Resources */,
+				A91305521DB71D100023D131 /* LSProjectListWindowController.xib in Resources */,
 				A91305441DB71A600023D131 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A913056D1DB8BF550023D131 /* YYDB.swift in Sources */,
+				A9F6D3441DB9B6DF00BF97C1 /* LSTableProjects.swift in Sources */,
+				A91305571DB8AA5D0023D131 /* LSExtension.swift in Sources */,
+				A9F6D34A1DB9F7EB00BF97C1 /* YYLocalizedStringAPI.swift in Sources */,
+				A9F6D33E1DB8C5A400BF97C1 /* String+YYExtension.swift in Sources */,
+				A9F6D3421DB8CF1D00BF97C1 /* YYDefines.swift in Sources */,
+				A91305551DB727700023D131 /* LSAPI.swift in Sources */,
+				A91305511DB71D100023D131 /* LSProjectListWindowController.swift in Sources */,
 				A913053F1DB71A600023D131 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +290,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "YYLocalizableStrings/YYLocalizableStrings-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -233,6 +332,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "YYLocalizableStrings/YYLocalizableStrings-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
@@ -282,6 +382,7 @@
 				A913054A1DB71A600023D131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
