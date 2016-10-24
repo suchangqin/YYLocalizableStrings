@@ -64,7 +64,7 @@ class LSProjectListWindowController: NSWindowController ,NSTableViewDelegate,NST
         let dict = ___dataFromClickTableView()
         let path = dict[tableProjects.KeysCloums_path]
         if !DYY_IsEmpty(path) {
-            let script = "tell application \"Terminal\" to do script \"cd \(path!)\"";
+            let script = "tell application \"Terminal\" to do script \"cd '\(path!)'\"";
             let appleScript = NSAppleScript(source: script)
             appleScript?.executeAndReturnError(nil)
         }
