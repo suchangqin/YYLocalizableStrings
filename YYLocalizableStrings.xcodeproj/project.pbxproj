@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90858791DBDEFFD00B9D431 /* LSProjectInfoWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90858771DBDEFFD00B9D431 /* LSProjectInfoWindowController.swift */; };
+		A908587A1DBDEFFD00B9D431 /* LSProjectInfoWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90858781DBDEFFD00B9D431 /* LSProjectInfoWindowController.xib */; };
 		A913053F1DB71A600023D131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913053E1DB71A600023D131 /* AppDelegate.swift */; };
 		A91305411DB71A600023D131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91305401DB71A600023D131 /* Assets.xcassets */; };
 		A91305441DB71A600023D131 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91305421DB71A600023D131 /* MainMenu.xib */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A90858771DBDEFFD00B9D431 /* LSProjectInfoWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSProjectInfoWindowController.swift; sourceTree = "<group>"; };
+		A90858781DBDEFFD00B9D431 /* LSProjectInfoWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSProjectInfoWindowController.xib; sourceTree = "<group>"; };
 		A913053B1DB71A600023D131 /* YYLocalizableStrings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLocalizableStrings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A913053E1DB71A600023D131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A91305401DB71A600023D131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 			children = (
 				A913054F1DB71D100023D131 /* LSProjectListWindowController.swift */,
 				A91305501DB71D100023D131 /* LSProjectListWindowController.xib */,
+				A90858771DBDEFFD00B9D431 /* LSProjectInfoWindowController.swift */,
+				A90858781DBDEFFD00B9D431 /* LSProjectInfoWindowController.xib */,
 			);
 			path = windowControllers;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A908587A1DBDEFFD00B9D431 /* LSProjectInfoWindowController.xib in Resources */,
 				A91305411DB71A600023D131 /* Assets.xcassets in Resources */,
 				A91305521DB71D100023D131 /* LSProjectListWindowController.xib in Resources */,
 				A91305441DB71A600023D131 /* MainMenu.xib in Resources */,
@@ -219,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90858791DBDEFFD00B9D431 /* LSProjectInfoWindowController.swift in Sources */,
 				A913056D1DB8BF550023D131 /* YYDB.swift in Sources */,
 				A9F6D3441DB9B6DF00BF97C1 /* LSTableProjects.swift in Sources */,
 				A91305571DB8AA5D0023D131 /* LSExtension.swift in Sources */,

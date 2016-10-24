@@ -54,4 +54,8 @@ class LSTableProjects: NSObject {
         let sql = "DELETE FROM \(stringTableName) WHERE id = \(DB_StringFormat(id))"
         return db.dbUpdate(sql: sql)
     }
+    func query(id:String?) -> [String:String]? {
+        let sql = "select * from \(stringTableName) where id = \(DB_StringFormat(id))"
+        return db.dbQuery(sql: sql).first
+    }
 }

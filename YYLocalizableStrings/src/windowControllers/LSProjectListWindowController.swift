@@ -18,11 +18,14 @@ class LSProjectListWindowController: NSWindowController ,NSTableViewDelegate,NST
     
     private var arrayProject:[[String:String]] = []
     
+    private var windowControllerProjectInfo:LSProjectInfoWindowController?
+    
     override func windowDidLoad() {
         super.windowDidLoad()
         ___reloadTableView()
         
-        // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+        tableView.doubleAction = #selector(___doMenuOpen(_:))
+        tableView.tableColumns.first?.title = YYLocalized("项目列表")
     }
     
     @IBAction func ___doAddNewProject(_ sender: AnyObject) {
@@ -59,6 +62,21 @@ class LSProjectListWindowController: NSWindowController ,NSTableViewDelegate,NST
         if !DYY_IsEmpty(path) {
             NSWorkspace.shared().selectFile(nil, inFileViewerRootedAtPath: path!)
         }
+    }
+    @IBAction func ___doMenuOpen(_ sender: AnyObject) {
+        let dict = ___dataFromClickTableView()
+        if windowControllerProjectInfo != nil {
+            let dictOpen = windowControllerProjectInfo?.dictProjectInfo
+            if dictOpen?[tableProjects.KeysCloums_id] == dict[tableProjects.KeysCloums_id] {
+                windowControllerProjectInfo?.showWindow(self);
+                return
+            }
+            windowControllerProjectInfo?.window?.close()
+            windowControllerProjectInfo = nil
+        }
+        windowControllerProjectInfo = LSProjectInfoWindowController(windowNibName: "LSProjectInfoWindowController")
+        windowControllerProjectInfo?.dictProjectInfo = dict
+        windowControllerProjectInfo?.showWindow(self)
     }
     @IBAction func ___doMenuShowInTerminal(_ sender: AnyObject) {
         let dict = ___dataFromClickTableView()

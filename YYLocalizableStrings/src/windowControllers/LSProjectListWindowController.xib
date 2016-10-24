@@ -58,7 +58,7 @@
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
                                                 <tableColumn identifier="LSCellProject01" width="475" minWidth="40" maxWidth="1000" id="rAQ-8K-1sP">
-                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="项目列表">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="project list">
                                                         <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -149,6 +149,9 @@
             <items>
                 <menuItem title="Open" id="FQq-yO-9UZ">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="___doMenuOpen:" target="-2" id="yej-SL-GdO"/>
+                    </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="TqZ-ya-Jfm"/>
                 <menuItem title="Show in Finder" id="OiF-wq-phQ">
