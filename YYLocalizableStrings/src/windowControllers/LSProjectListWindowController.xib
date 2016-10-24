@@ -159,6 +159,9 @@
                 </menuItem>
                 <menuItem title="Show in Terminal" id="0kY-yK-9qN">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="___doMenuShowInTerminal:" target="-2" id="L7J-ZM-eWC"/>
+                    </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="a3U-4W-wtg"/>
                 <menuItem title="Delete" id="Wub-SJ-rvE">

@@ -60,6 +60,15 @@ class LSProjectListWindowController: NSWindowController ,NSTableViewDelegate,NST
             NSWorkspace.shared().selectFile(nil, inFileViewerRootedAtPath: path!)
         }
     }
+    @IBAction func ___doMenuShowInTerminal(_ sender: AnyObject) {
+        let dict = ___dataFromClickTableView()
+        let path = dict[tableProjects.KeysCloums_path]
+        if !DYY_IsEmpty(path) {
+            let script = "tell application \"Terminal\" to do script \"cd \(path!)\"";
+            let appleScript = NSAppleScript(source: script)
+            appleScript?.executeAndReturnError(nil)
+        }
+    }
     @IBAction func ___doMenuDelete(_ sender: AnyObject) {
         let dict = ___dataFromClickTableView()
         let id = dict[tableProjects.KeysCloums_id]
